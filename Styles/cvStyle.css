@@ -1,0 +1,148 @@
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;}
+@font-face
+	{font-family:Meiryo;}
+@font-face
+	{font-family:"\@Meiryo";}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:9.0pt;
+	font-family:"Century Gothic",sans-serif;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	border:none;
+	padding:0in;
+	font-size:11.0pt;
+	font-family:"Century Gothic",sans-serif;
+	text-transform:uppercase;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Century Gothic",sans-serif;
+	color:#548AB7;
+	text-transform:uppercase;}
+h4
+	{mso-style-link:"Heading 4 Char";
+	margin:0in;
+	font-size:9.0pt;
+	font-family:"Century Gothic",sans-serif;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Title Char";
+	margin:0in;
+	font-size:48.0pt;
+	font-family:"Century Gothic",sans-serif;
+	color:black;
+	text-transform:uppercase;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{mso-style-link:"Subtitle Char";
+	margin:0in;
+	font-size:16.0pt;
+	font-family:"Century Gothic",sans-serif;
+	color:black;
+	letter-spacing:.95pt;}
+p.MsoDate, li.MsoDate, div.MsoDate
+	{mso-style-link:"Date Char";
+	margin:0in;
+	font-size:9.0pt;
+	font-family:"Century Gothic",sans-serif;}
+a:link, span.MsoHyperlink
+	{color:#B85A22;
+	text-decoration:none;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Century Gothic",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-link:Title;
+	color:black;
+	text-transform:uppercase;}
+span.DateChar
+	{mso-style-name:"Date Char";
+	mso-style-link:Date;}
+span.SubtitleChar
+	{mso-style-name:"Subtitle Char";
+	mso-style-link:Subtitle;
+	color:black;
+	letter-spacing:.95pt;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Century Gothic",sans-serif;
+	color:#548AB7;
+	text-transform:uppercase;
+	font-weight:bold;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-link:"Heading 4";
+	font-weight:bold;}
+.MsoChpDefault
+	{font-size:12.0pt;
+	font-family:"Century Gothic",sans-serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:.5in .5in .5in .5in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+.topnav {
+    background-color: rgb(78,42,178);
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: rgb(5,19,12);
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color:rgb(178,42,51);
+    color: rgb(0, 0, 0);
+  }
+
+
+.title-container h1{
+    color: rgb(178,42,164);
+    margin: 15px 0px 0px 15px;
+
+}
+.title-container h4{
+    color: 	rgb(41,177,180);
+    margin: 5px 0px 5px 15px;
+
+}
