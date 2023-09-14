@@ -219,12 +219,12 @@ background-image: url('images\test.png');
     font-size: 200%;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .about-me{
     background-size: 100% 75%;
   }
   .topnav a {
-    font-size: 120;
+    font-size: 90;
     padding: 10px 5px;
   }
   .about-me{
