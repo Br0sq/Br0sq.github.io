@@ -224,6 +224,10 @@ background-image: url('images\test.png');
     background-size: 100% 75%;
   }
   .topnav a {
-    font-size: 100%;
+    font-size: 120;
+    padding: 10px 5px;
+  }
+  .about-me{
+    background-color:rgb(25, 184, 91);
   }
 }
