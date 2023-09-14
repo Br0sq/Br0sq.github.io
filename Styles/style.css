@@ -103,7 +103,7 @@ h4{
 }
 .about-me >p{
   color: white;
-  font size: 2rem;
+  font-size: 2rem;
   
 
 }
@@ -224,7 +224,7 @@ background-image: url('images\test.png');
     background-size: 100% 75%;
   }
   .topnav a {
-    font-size: 90;
+    font-size: 70;
     padding: 10px 5px;
   }
   .about-me{
