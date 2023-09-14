@@ -218,3 +218,9 @@ background-image: url('images\test.png');
 .sub-title{
     font-size: 200%;
 }
+
+@media only screen and (max-width: 600px) {
+  .about-me{
+    background-size: 100% 100%;
+  }
+}
