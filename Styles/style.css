@@ -219,8 +219,8 @@ background-image: url('images\test.png');
     font-size: 200%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .about-me{
-    background-size: 100% 100%;
+    background-size: 100% 75%;
   }
 }
