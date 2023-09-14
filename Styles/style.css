@@ -36,7 +36,7 @@ body{
     text-align: center;
     padding: 10px 18px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 150%;
   }
 .topnav a:hover {
     background-color: #ddd;
@@ -222,5 +222,8 @@ background-image: url('images\test.png');
 @media only screen and (max-width: 500px) {
   .about-me{
     background-size: 100% 75%;
+  }
+  .topnav a {
+    font-size: 100%;
   }
 }
