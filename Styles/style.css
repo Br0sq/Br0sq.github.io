@@ -1,69 +1,77 @@
+/* #region Reset CSS and basic styling */
 html, body {
   max-width: 100%;
   overflow-x: hidden;
   margin: 0;
 }
-body{
-    background-color:rgb(25, 184, 91);
-    
-}
-.Generic{
-   font-size: 50%;
-}
-/* The sticky class is added to the topnav with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;
-  }
-  
+/* #endregion */
 
+/* #region Body Styles */
+body {
+  background-color: rgb(25, 184, 91);
+}
+/* #endregion */
+
+/* #region Global Styling */
+.Generic {
+  font-size: 50%;
+}
+/* #endregion */
+
+/* #region Navigation Bar Styles */
 .topnav {
-    border-radius:0;
-    height: 8%;
-    background-color: rgb(25, 184, 91);
-    overflow: hidden;
-    border-bottom: 1px solid white;
-
+  border-radius: 0;
+  height: 8%;
+  background-color: rgb(25, 184, 91);
+  overflow: hidden;
+  border-bottom: 1px solid white;
 }
+/* #endregion */
+
+/* #region Navigation Links Styles */
 .topnav a {
-    float: left;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 5px 18px;
-    text-decoration: none;
-    font-size: 150%;
-    border-radius: 100px;
-    border: 1px solid black;
-    background-color: #03ca1ec6;
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 5px 18px;
+  text-decoration: none;
+  font-size: 150%;
+  border-radius: 100px;
+  border: 1px solid black;
+  background-color: #03ca1ec6;
 }
+/* #endregion */
+
+/* #region Navigation Links Hover Styles */
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
+/* #endregion */
+
+/* #region Active Navigation Link Styles */
 .topnav a.active {
-    border-radius: 100px;
-    background-color:rgb(8, 106, 11);
-    color: rgb(0, 0, 0);
-    border: 1px solid white;
-  }
-
-
-h1{
-    margin: 15px 0px 0px 15px;
-
+  border-radius: 100px;
+  background-color: rgb(8, 106, 11);
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
 }
-h4{
-    margin: 5px 0px 5px 15px;
+/* #endregion */
 
+/* #region Header Styles */
+h1 {
+  margin: 15px 0px 0px 15px;
 }
+/* #endregion */
 
-.welcome-section{
+/* #region Sub-Header Styles */
+h4 {
+  margin: 5px 0px 5px 15px;
+}
+/* #endregion */
+
+/* #region Welcome Section Styles */
+.welcome-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,66 +81,88 @@ h4{
   background-color: rgb(25, 184, 91);
   background-image: rgb(25, 184, 91);
 }
-.welcome-section > p{
-    font-size: 3rem;
-    font-weight: 200;
-    font-style: italic;
-    color: rgb(12, 7, 7);
+/* #endregion */
+
+/* #region Welcome Section Text Styles */
+.welcome-section > p {
+  font-size: 15%;
+  font-weight: 200;
+  font-style: italic;
+  color: rgb(12, 7, 7);
 }
-.welcome-section > h1{
+/* #endregion */
+
+/* #region Welcome Section Header Styles */
+.welcome-section > h1 {
   padding-top: 5rem;
   font-size: 4rem;
   font-weight: 200;
   font-style: italic;
   color: rgb(0, 0, 0);
 }
-/*about me section*/
-.about-me{
+/* #endregion */
+
+/* #region About Me */
+.about-me {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
   width: 100vw;
   height: 100vh;
   background-color: #736d6d;
-  
   background-image: url(/Images/Sitting-me.png);
   background-size: 50% 100%;
   background-repeat: no-repeat;
   background-position: center;
+  border: 5px solid snow;
 }
-.about-me > h2{
+.about-me > h2 {
+  margin-top: 0px;
+  padding-bottom: 0;
   color: rgb(0, 0, 0);
   font-size: 4rem;
   font-weight: 50;
 }
-.about-me >p{
+.about-me > p {
+  background-color: green;
+  border: 3px solid snow;
   color: white;
-  font-size: 2rem;
-  
-
+  font-size: 1rem;
+  width: 30%;
 }
+/* #endregion */
 
-
-
-/* Projects section */
-
-
+/* #region Projects Section Styles */
 .projects-section {
-    text-align: center;
-    padding: 10rem 2rem;
-    background-image: url(/Images/test.png);
-    background-repeat: repeat;
-    background-size: 100% 100%;
-  }
+  text-align: center;
+  padding: 10rem 2rem;
+  background-image: url(/Images/test.png);
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: solid 4px white;
+}
+.projects{
+  max-width: 640px;
+  padding-bottom: 20rem;
+  background-image: url(/Images/lift.gif);
+  background-size: 100% 100%;
+  border: white solid 3px;
   
-  .projects-section-header {
-    max-width: 640px;
-    margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid var(--main-white);
+}
+.projects>h3{
+  color: blue;
+  font-size: 5rem}
+  .projects>p{
+    font-size: 100%;
   }
-/* Contact section */
+/*#endregion*/
 
+/* #region contact-me*/
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -144,22 +174,13 @@ h4{
   padding: 0 1rem;
   background: rgb(37, 238, 144);
 }
-
 .contact-section-header > h2 {
   font-size: 2rem;
 }
-
-@media (max-width: 28.75em) {
-  .contact-section-header > h2 {
-    font-size: 4rem;
-  }
-}
-
 .contact-section-header > p {
   color: blue;
   font-style: italic;
 }
-
 .contact-links {
   display: flex;
   justify-content: center;
@@ -167,9 +188,7 @@ h4{
   max-width: 980px;
   margin-top: 4rem;
   flex-wrap: wrap;
-
 }
-
 .contact-details {
   color: rgb(115, 95, 95);
   padding: 10px 16px;
@@ -177,13 +196,13 @@ h4{
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
 }
-
 .contact-details:hover {
   background-color: #ddd;
   color: black;
 }
-/*icon style*/
-/* Style all font awesome icons */
+/* #endregion */
+
+/* #region Font Awesome Icon Styles */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -191,51 +210,57 @@ h4{
   text-align: center;
   text-decoration: none;
 }
-
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
-
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
-
-/* Twitter */
 .fa-github {
   background: #55ACEE;
   color: white;
 }
-/* mail */
-.fa-at{
-  background:#158a24;
+.fa-at {
+  background: #158a24;
   color: white;
 }
-/*backround-image*/
-background-image: url('images\test.png');
+/* #endregion */
 
-/* Footer */
-
-.sub-title{
-    font-size: 200%;
+/* #region Footer Styles */
+.sub-title {
+  font-size: 200%;
 }
+/* #endregion */
 
+/* #region Media Queries */
 @media only screen and (max-width: 600px) {
-  .about-me{
+  .about-me {
     background-size: 100% 75%;
+    justify-content: top;
+    align-items: center;
+    background-color: rgb(25, 184, 91);
+    padding: 0px;
   }
+
+  .about-me > h2 {
+    margin-bottom: 25%;
+  }
+
+  .about-me > p {
+    width: 70%;
+    height: 30%;
+  }
+
   .topnav a {
     font-size: 90%;
     padding: 10px 5px;
   }
-  .about-me{
-    background-color:rgb(25, 184, 91);
+
+  hr {
+    border-top: 2px solid red;
   }
 }
-hr{
-  border-top: 2px solid red;
-}
+/* #endregion */
+
+
