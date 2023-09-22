@@ -105,7 +105,7 @@ h4 {
 /* #region About Me */
 .about-me {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; */
   justify-content: top;
   align-items: center;
   width: 100vw;
@@ -125,6 +125,7 @@ h4 {
   font-weight: 50;
 }
 .about-me > p {
+  text-align: center;
   background-color: green;
   border: 3px solid snow;
   color: white;
@@ -286,11 +287,8 @@ h4 {
     background-color: rgb(25, 184, 91);
     padding: 0px;
   }
-  .PLS{
-    height: 100vh;
-  }
-  .Oslo-Spek{
-    height: 100vh;
+  .PLS, .Oslo-Spek{
+    height: 50vh;
   }
   .Oslo-Spek>p, .PLS>p{
     font-size: 1rem;
